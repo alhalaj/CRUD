@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+</head>
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+require 'config/app.php';
+
+use Spipu\Html2Pdf\Html2Pdf;
+
+$content .= '<style type="text/css">
+    .gambar {
+        width: 50px;
+    }
+</style>';
+
+$content .= '
+<page>
+?>
+<body>
+<style>
+    a{
+        text-decoration: none;
+        /* other styles here */
+    }
+    .content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+<div class="content">
+<img style="position:absolute;top:0.24in;left:6.15in;width:2.00in;height:0.62in" src="ri_2.png" />
+<div style="position:absolute;top:0.60in;left:0.15in;width:3.05in;line-height:0.35in;">
+  <span style="font-style:normal;font-weight:normal;font-size:23pt;font-family:Calibri Light;color:¦ec7c30">B</span><span style="font-style:normal;font-weight:normal;font-size:23pt;font-family:Calibri Light;color:¦ec7c30">NI </span><span style="font-style:normal;font-weight:normal;font-size:23pt;font-family:Calibri Light;color:¦ec7c30">LEL</span><span style="font-style:normal;font-weight:normal;font-size:23pt;font-family:Calibri Light;color:¦ec7c30">AN</span><span style="font-style:normal;font-weight:normal;font-size:23pt;font-family:Calibri Light;color:¦ec7c30">G AGUNAN</span><span style="font-style:normal;font-weight:normal;font-size:23pt;font-family:Calibri Light;color:¦ec7c30"> </span><br/></SPAN></div>
+<img style="position:absolute;top:0.23in;left:0.00in;width:2.25in;height:0.06in" src="vi_1.png" />
+<img style="position:absolute;top:0.11in;left:0.00in;width:1.90in;height:0.07in" src="vi_2.png" />
+<img style="position:absolute;top:5.06in;left:0.00in;width:2.67in;height:0.59in" src="ci_2.png" />
+<div style="position:absolute;top:5.24in;left:1.29in;width:0.15in;line-height:0.27in;"><span style="font-style:normal;font-weight:bold;font-size:18pt;font-family:Calibri;color:¦ffffff">-</span><span style="font-style:normal;font-weight:bold;font-size:18pt;font-family:Calibri;color:¦ffffff"> </span><br/></SPAN></div>
+<img style="position:absolute;top:5.06in;left:2.73in;width:2.67in;height:0.59in" src="vi_3.png" />
+<div style="position:absolute;top:5.24in;left:3.01in;width:2.17in;line-height:0.27in;"><span style="font-style:normal;font-weight:bold;font-size:18pt;font-family:Calibri;color:¦ffffff">Rp 3.650.000.000,-</span><span style="font-style:normal;font-weight:bold;font-size:18pt;font-family:Calibri;color:¦ffffff"> </span><br/></SPAN></div>
+<img style="position:absolute;top:5.06in;left:5.45in;width:2.67in;height:0.59in" src="vi_4.png" />
+<div style="position:absolute;top:5.24in;left:5.74in;width:2.17in;line-height:0.27in;"><span style="font-style:normal;font-weight:bold;font-size:18pt;font-family:Calibri;color:¦ffffff">Rp 6.523.260.000,-</span><span style="font-style:normal;font-weight:bold;font-size:18pt;font-family:Calibri;color:¦ffffff"> </span><br/></SPAN></div>
+<div style="position:absolute;top:4.67in;left:0.78in;width:1.19in;line-height:0.27in;"><span style="font-style:normal;font-weight:normal;font-size:18pt;font-family:Calibri;color:¦000000">Harga Jual</span><span style="font-style:normal;font-weight:normal;font-size:18pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></div>
+<div style="position:absolute;top:4.67in;left:3.46in;width:1.39in;line-height:0.27in;"><span style="font-style:normal;font-weight:normal;font-size:18pt;font-family:Calibri;color:¦000000">Limit Lelang</span><span style="font-style:normal;font-weight:normal;font-size:18pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></div>
+<img style="position:absolute;top:6.54in;left:5.39in;width:2.63in;height:2.82in" src="ri_3.png" />
+<img style="position:absolute;top:6.02in;left:0.00in;width:0.71in;height:0.80in" src="ri_4.png" />
+<div style="position:absolute;top:6.14in;left:0.69in;width:1.61in;line-height:0.42in;"><span style="font-style:normal;font-weight:normal;font-size:28pt;font-family:Calibri Light;color:¦1ca5af">Surabaya</span><span style="font-style:normal;font-weight:normal;font-size:28pt;font-family:Calibri Light;color:¦1ca5af"> </span><br/></SPAN></div>
+<div style="position:absolute;top:6.61in;left:0.68in;width:4.44in;line-height:0.23in;"><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">PERUM WISATA BUKIT MAS 1 CLUSTER VENEZIA</span><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></div>
+<div style="position:absolute;top:6.89in;left:0.68in;width:4.55in;line-height:0.23in;"><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">BLOK </span></SPAN><br/></div>
+<div style="position:absolute;top:6.89in;left:0.68in;width:4.55in;line-height:0.23in;"><DIV style="position:relative; left:0.60in;"><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">B-3 </span></SPAN></DIV><br/></div>
+<div style="position:absolute;top:6.89in;left:0.68in;width:4.55in;line-height:0.23in;"><DIV style="position:relative; left:1.04in;"><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">NO</span><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">. </span></SPAN></DIV><br/></div>
+<div style="position:absolute;top:6.89in;left:0.68in;width:4.55in;line-height:0.23in;"><DIV style="position:relative; left:1.51in;"><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">16 </span></SPAN></DIV><br/></div>
+<div style="position:absolute;top:6.89in;left:0.68in;width:4.55in;line-height:0.23in;"><DIV style="position:relative; left:1.87in;"><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">LIDAH </span></SPAN></DIV><br/></div>
+<div style="position:absolute;top:6.89in;left:0.68in;width:4.55in;line-height:0.23in;"><DIV style="position:relative; left:2.56in;"><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">WETAN </span></SPAN></DIV><br/></div>
+<div style="position:absolute;top:6.89in;left:0.68in;width:4.55in;line-height:0.25in;"><DIV style="position:relative; left:3.36in;"><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">LAKARSANTI</span><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000"> </span><br/></DIV><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">SURABAYA</span><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></div>
+<div style="position:absolute;top:7.62in;left:0.65in;width:2.18in;line-height:0.24in;"><span style="font-style:normal;font-weight:bold;font-size:16pt;font-family:Calibri;color:¦000000">LT </span></SPAN><br/></div>
+<div style="position:absolute;top:7.62in;left:0.65in;width:2.18in;line-height:0.24in;"><DIV style="position:relative; left:0.26in;"><span style="font-style:normal;font-weight:normal;font-size:16pt;font-family:Calibri;color:¦000000">375 </span><span style="font-style:normal;font-weight:normal;font-size:16pt;font-family:Calibri;color:¦000000">m </span></SPAN></DIV><br/></div>
+<div style="position:absolute;top:7.61in;left:1.53in;width:0.12in;line-height:0.16in;"><span style="font-style:normal;font-weight:normal;font-size:10pt;font-family:Calibri;color:¦000000">2</span><span style="font-style:normal;font-weight:normal;font-size:10pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></div>
+<div style="position:absolute;top:7.62in;left:0.65in;width:2.18in;line-height:0.24in;"><DIV style="position:relative; left:1.01in;"><span style="font-style:normal;font-weight:normal;font-size:16pt;font-family:Calibri;color:¦000000">/ </span></SPAN></DIV><br/></div>
+<div style="position:absolute;top:7.62in;left:0.65in;width:2.18in;line-height:0.24in;"><DIV style="position:relative; left:1.22in;"><span style="font-style:normal;font-weight:bold;font-size:16pt;font-family:Calibri;color:¦000000">LB </span><span style="font-style:normal;font-weight:normal;font-size:16pt;font-family:Calibri;color:¦000000">444 </span><span style="font-style:normal;font-weight:normal;font-size:16pt;font-family:Calibri;color:¦000000">m</span><span style="font-style:normal;font-weight:normal;font-size:16pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></DIV></div>
+<div style="position:absolute;top:7.61in;left:2.78in;width:0.12in;line-height:0.16in;"><span style="font-style:normal;font-weight:normal;font-size:10pt;font-family:Calibri;color:¦000000">2</span><span style="font-style:normal;font-weight:normal;font-size:10pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></div>
+<div style="position:absolute;top:8.03in;left:0.65in;width:0.53in;line-height:0.24in;"><span style="font-style:normal;font-weight:bold;font-size:16pt;font-family:Calibri;color:¦000000">SHM</span><span style="font-style:normal;font-weight:bold;font-size:16pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></div>
+<div style="position:absolute;top:1.12in;left:0.15in;width:2.09in;line-height:0.35in;"><span style="font-style:normal;font-weight:normal;font-size:23pt;font-family:Calibri Light;color:¦1ca5af">Rumah Tinggal</span><span style="font-style:normal;font-weight:normal;font-size:23pt;font-family:Calibri Light;color:¦1ca5af"> </span><br/></SPAN></div>
+<img style="position:absolute;top:4.41in;left:0.00in;width:8.18in;height:0.05in" src="ci_3.png" />
+<img style="position:absolute;top:11.29in;left:0.00in;width:8.18in;height:0.32in" src="ci_4.png" />
+<div style="position:absolute;top:11.40in;left:0.83in;width:4.38in;line-height:0.16in;"><a href="https://lelangagunan.bni.co.id"><span style="font-style:normal;font-weight:bold;font-size:10pt;font-family:Calibri;color:¦ffffff">https://lelangagunan.bni.co.id                                   </span></a>
+<a href="https://lelangagunan.bni.co.id"><span style="font-style:normal;font-weight:bold;font-size:12pt;font-family:Calibri;color:¦ffffff">0818</span></a>
+<a href="https://lelangagunan.bni.co.id"><span style="font-style:normal;font-weight:bold;font-size:12pt;font-family:Calibri;color:¦ffffff">-</span></a>
+<a href="https://lelangagunan.bni.co.id"><span style="font-style:normal;font-weight:bold;font-size:12pt;font-family:Calibri;color:¦ffffff">0728</span></a>
+<a href="https://lelangagunan.bni.co.id"><span style="font-style:normal;font-weight:bold;font-size:12pt;font-family:Calibri;color:¦ffffff">-</span></a>
+<a href="https://lelangagunan.bni.co.id"><span style="font-style:normal;font-weight:bold;font-size:12pt;font-family:Calibri;color:¦ffffff">5336</span></a>
+<a href="https://lelangagunan.bni.co.id"><span style="font-style:normal;font-weight:bold;font-size:12pt;font-family:Calibri;color:¦ffffff"> </span></a>
+<br/></SPAN></div>
+<div style="position:absolute;top:11.38in;left:6.60in;width:1.31in;line-height:0.18in;"><span style="font-style:normal;font-weight:bold;font-size:12pt;font-family:Calibri;color:¦ffffff">(021) 6983-7048 </span><span style="font-style:normal;font-weight:bold;font-size:12pt;font-family:Calibri;color:¦ffffff"> </span><br/></SPAN></div>
+<img style="position:absolute;top:11.29in;left:3.43in;width:0.34in;height:0.39in" src="ri_5.png" />
+<img style="position:absolute;top:11.25in;left:0.38in;width:0.34in;height:0.38in" src="ri_6.png" />
+<img style="position:absolute;top:11.29in;left:3.10in;width:0.05in;height:0.32in" src="ci_5.png" />
+<img style="position:absolute;top:11.30in;left:5.71in;width:0.06in;height:0.32in" src="ci_6.png" />
+<img style="position:absolute;top:11.23in;left:6.12in;width:0.30in;height:0.41in" src="ri_7.png" />
+<img style="position:absolute;top:8.51in;left:0.63in;width:4.13in;height:0.37in" src="vi_5.png" />
+<img style="position:absolute;top:8.88in;left:0.63in;width:3.55in;height:0.94in" src="vi_6.png" />
+<img style="position:absolute;top:8.88in;left:4.18in;width:0.59in;height:0.94in" src="vi_7.png" />
+<img style="position:absolute;top:8.88in;left:0.62in;width:4.15in;height:0.02in" src="vi_8.png" />
+<img style="position:absolute;top:8.51in;left:0.62in;width:4.15in;height:0.02in" src="vi_9.png" />
+<img style="position:absolute;top:9.81in;left:0.62in;width:4.15in;height:0.02in" src="vi_10.png" />
+<div style="position:absolute;top:8.56in;left:0.73in;width:1.85in;line-height:0.23in;"><span style="font-style:normal;font-weight:bold;font-size:15pt;font-family:Calibri;color:¦000000">C</span><span style="font-style:normal;font-weight:bold;font-size:15pt;font-family:Calibri;color:¦000000">ON</span><span style="font-style:normal;font-weight:bold;font-size:15pt;font-family:Calibri;color:¦000000">TACT </span><span style="font-style:normal;font-weight:bold;font-size:15pt;font-family:Calibri;color:¦000000">PE</span><span style="font-style:normal;font-weight:bold;font-size:15pt;font-family:Calibri;color:¦000000">RSON :</span><span style="font-style:normal;font-weight:bold;font-size:15pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></div>
+<div style="position:absolute;top:8.93in;left:0.73in;width:2.16in;line-height:0.23in;"><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">Hasan : </span><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">081369698169</span><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></div>
+<div style="position:absolute;top:9.20in;left:0.73in;width:2.40in;line-height:0.25in;"><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">Bandang : 081235866000</span><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000"> </span><br/><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000">Sigit : 081330289566</span><span style="font-style:normal;font-weight:normal;font-size:15pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></div>
+<div style="position:absolute;top:4.67in;left:6.17in;width:1.39in;line-height:0.27in;"><span style="font-style:normal;font-weight:normal;font-size:18pt;font-family:Calibri;color:¦000000">Nilai Taksasi</span><span style="font-style:normal;font-weight:normal;font-size:18pt;font-family:Calibri;color:¦000000"> </span><br/></SPAN></div>
+<img style="position:absolute;top:1.62in;left:0.75in;width:3.07in;height:2.77in" src="ri_8.png" />
+<img style="position:absolute;top:1.60in;left:4.27in;width:3.01in;height:2.73in" src="ri_9.png" />
+</div>
+</body>
+<?php
+</page>';
+
+$html2pdf = new Html2Pdf();
+$html2pdf->writeHTML($content);
+ob_start();
+$html2pdf->output('laporan-debitur.pdf');
+?>
+</html>
+
+ <hr style="position:absolute;top:0.60in;left:0.1in;width:5.05in;line-height:0.35in; solid #FF6700;">
+    
+    <table>
+        <tr>
+			<td> 
+			    <img style="position:absolute;top:5.06in;left:0.00in;width:2.5in;height:0.59in" src="ci_2.png" />
+			 </td>
+			 <td>
+			 <img style="position:absolute;top:5.06in;left:2.73in;width:2.5in;height:0.59in" src="vi_3.png" />
+			 </td>
+			 <td>
+			 <img style="position:absolute;top:5.06in;left:5.45in;width:2.5in;height:0.59in" src="vi_4.png" />
+			 </td>
+			 <td>
+			 <img style="position:absolute;top:6.54in;left:5.39in;width:2.5in;height:2.82in" src="ri_3.png" /></td>
+		</tr>
+			<tr>
+				<td>
+				<img style="position:absolute;top:0.85in;left:0.00in;width:1.90in;height:0.07in" src="vi_2.png" />
+				</td>
+			</tr>
+			<tr>
+			    <td>
+                <img style="position:absolute;top:1.62in;left:0.69in;width:3.07in;height:2.77in" src="ri_9.png" />
+                 <img style="position:absolute;top:1.62in;left:4.15in;width:3.07in;height:2.77in" src="ri_8.png" />
+                </td>
+			</tr>
+	</table>
+   
+
+
+
+
+
+<img style="position:absolute;top:6.02in;left:0.00in;width:0.71in;height:0.80in" src="ri_4.png" />
+<img style="position:absolute;top:4.41in;left:0.00in;width:8.18in;height:0.05in" src="ci_3.png" />

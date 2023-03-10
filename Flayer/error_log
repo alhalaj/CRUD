@@ -1,0 +1,426 @@
+[08-Mar-2023 15:28:39 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:44:30 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:44:30 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(81): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 15:46:07 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 14
+[08-Mar-2023 15:46:07 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(81): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n<page>\n\n    <i...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 15:46:44 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:46:44 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(27): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 15:47:53 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:49:39 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:49:39 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(27): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 15:50:19 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:50:19 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(27): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 15:50:25 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:50:25 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(27): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 15:51:00 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:51:00 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(24): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 15:51:44 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:51:44 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [div] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(24): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 15:52:06 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:54:38 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:54:39 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: calibri light in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php:3007
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4355): TCPDF->Error('Could not inclu...')
+#1 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4516): TCPDF->AddFont('calibri light', '', '', true)
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Css.php(374): TCPDF->setFont('calibri light', '', 23)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Tag/AbstractHtmlTag.php(33): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractHtmlTag->open(Array)
+#5 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/menujuse/public_html/MHF/coba/vendor/spipu in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php on line 3007
+[08-Mar-2023 15:55:30 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:57:00 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:57:01 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:57:06 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:57:36 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:57:36 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: calibri light in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php:3007
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4355): TCPDF->Error('Could not inclu...')
+#1 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4516): TCPDF->AddFont('calibri light', '', '', true)
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Css.php(374): TCPDF->setFont('calibri light', '', 23)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Tag/AbstractHtmlTag.php(33): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractHtmlTag->open(Array)
+#5 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/menujuse/public_html/MHF/coba/vendor/spipu in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php on line 3007
+[08-Mar-2023 15:58:06 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:58:06 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: calibri light in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php:3007
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4355): TCPDF->Error('Could not inclu...')
+#1 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4516): TCPDF->AddFont('calibri light', '', '', true)
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Css.php(374): TCPDF->setFont('calibri light', '', 23)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Tag/AbstractHtmlTag.php(33): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractHtmlTag->open(Array)
+#5 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/menujuse/public_html/MHF/coba/vendor/spipu in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php on line 3007
+[08-Mar-2023 15:58:08 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 15:58:08 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: calibri light in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php:3007
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4355): TCPDF->Error('Could not inclu...')
+#1 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4516): TCPDF->AddFont('calibri light', '', '', true)
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Css.php(374): TCPDF->setFont('calibri light', '', 23)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Tag/AbstractHtmlTag.php(33): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractHtmlTag->open(Array)
+#5 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/menujuse/public_html/MHF/coba/vendor/spipu in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php on line 3007
+[08-Mar-2023 16:00:39 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:01:39 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:02:38 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:02:38 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The html tag [br] is not known by Html2Pdf. You can create it and push it on the Html2Pdf GitHub project. in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php:1441
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(3131): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_DIV(Array)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(595): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#5 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(28 in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php on line 1441
+[08-Mar-2023 16:03:19 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:03:42 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:03:46 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:05:29 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:05:29 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(30): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 16:06:15 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:06:15 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: calibri light in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php:3007
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4355): TCPDF->Error('Could not inclu...')
+#1 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4516): TCPDF->AddFont('calibri light', '', '', true)
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Css.php(374): TCPDF->setFont('calibri light', '', 23)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Tag/AbstractHtmlTag.php(33): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractHtmlTag->open(Array)
+#5 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/menujuse/public_html/MHF/coba/vendor/spipu in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php on line 3007
+[08-Mar-2023 16:06:17 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:06:18 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: calibri light in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php:3007
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4355): TCPDF->Error('Could not inclu...')
+#1 /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php(4516): TCPDF->AddFont('calibri light', '', '', true)
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Css.php(374): TCPDF->setFont('calibri light', '', 23)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Tag/AbstractHtmlTag.php(33): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1436): Spipu\Html2Pdf\Tag\AbstractHtmlTag->open(Array)
+#5 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/menujuse/public_html/MHF/coba/vendor/spipu in /home/menujuse/public_html/MHF/coba/vendor/tecnickcom/tcpdf/tcpdf.php on line 3007
+[08-Mar-2023 16:06:44 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:09:16 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:09:20 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:11:31 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:11:31 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(81): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 16:12:27 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:12:27 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(81): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 16:12:36 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:12:36 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(81): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 16:16:41 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:16:41 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [span] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(80): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n\n  ...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[08-Mar-2023 16:27:58 UTC] PHP Parse error:  syntax error, unexpected 'Barlow' (T_STRING) in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 39
+[08-Mar-2023 16:28:43 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:28:45 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The html tag [svg] is not known by Html2Pdf. You can create it and push it on the Html2Pdf GitHub project. in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php:1441
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(3131): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_DIV(Array)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(3131): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#5 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2p in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php on line 1441
+[08-Mar-2023 16:29:38 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:29:38 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The html tag [svg] is not known by Html2Pdf. You can create it and push it on the Html2Pdf GitHub project. in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php:1441
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(3131): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_DIV(Array)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(3131): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#5 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2p in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php on line 1441
+[08-Mar-2023 16:29:45 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:29:46 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The html tag [svg] is not known by Html2Pdf. You can create it and push it on the Html2Pdf GitHub project. in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php:1441
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(3131): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_DIV(Array)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(3131): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#5 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2p in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php on line 1441
+[08-Mar-2023 16:39:07 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:40:04 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:41:00 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[08-Mar-2023 16:41:45 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 02:42:18 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:10:57 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:10:57 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The html tag [button] is not known by Html2Pdf. You can create it and push it on the Html2Pdf GitHub project. in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php:1441
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(3131): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_DIV(Array)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(595): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#5 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.ph in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php on line 1441
+[09-Mar-2023 03:11:00 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:11:00 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The html tag [button] is not known by Html2Pdf. You can create it and push it on the Html2Pdf GitHub project. in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php:1441
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(3131): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_DIV(Array)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(595): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#5 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.ph in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php on line 1441
+[09-Mar-2023 03:11:28 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:11:28 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The html tag [button] is not known by Html2Pdf. You can create it and push it on the Html2Pdf GitHub project. in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php:1441
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(3131): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_DIV(Array)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(595): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#5 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.ph in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php on line 1441
+[09-Mar-2023 03:11:32 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:11:32 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The html tag [button] is not known by Html2Pdf. You can create it and push it on the Html2Pdf GitHub project. in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php:1441
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(3131): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_DIV(Array)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(595): Spipu\Html2Pdf\Html2Pdf->_makeHTMLcode()
+#5 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.ph in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php on line 1441
+[09-Mar-2023 03:23:22 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:23:23 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The html tag [header] is not known by Html2Pdf. You can create it and push it on the Html2Pdf GitHub project. in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php:1441
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1049): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(755): Spipu\Html2Pdf\Html2Pdf->_setNewPositionForNewLine(NULL)
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(2736): Spipu\Html2Pdf\Html2Pdf->_setNewPage(NULL, '', Array, NULL, false)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_PAGE(Array)
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#5 /home/menu in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php on line 1441
+[09-Mar-2023 03:27:21 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:27:21 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: The html tag [header] is not known by Html2Pdf. You can create it and push it on the Html2Pdf GitHub project. in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php:1441
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1049): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(755): Spipu\Html2Pdf\Html2Pdf->_setNewPositionForNewLine(NULL)
+#2 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(2736): Spipu\Html2Pdf\Html2Pdf->_setNewPage(NULL, '', Array, NULL, false)
+#3 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_PAGE(Array)
+#4 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#5 /home/menu in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php on line 1441
+[09-Mar-2023 03:30:32 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:33:49 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:35:07 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:35:43 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:36:21 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:36:46 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:37:23 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:38:10 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:39:02 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:39:56 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:40:45 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:42:20 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:42:43 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:43:16 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:44:06 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:44:23 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:45:12 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:45:40 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:45:54 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:46:22 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:49:01 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:50:05 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:50:35 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 03:50:54 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 05:20:27 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 05:20:37 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:28:36 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:29:00 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:29:15 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:30:37 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:31:01 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:31:57 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:32:30 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:33:27 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:34:00 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:34:42 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:35:12 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:35:48 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:35:54 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:36:09 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:36:20 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:36:36 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:37:20 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:37:36 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:39:28 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:39:55 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:39:55 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [div] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(65): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n<ta...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[09-Mar-2023 06:40:12 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:40:51 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:41:14 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:41:14 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [page] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(55): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n<ta...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[09-Mar-2023 06:41:43 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:42:12 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:42:48 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:43:21 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:43:56 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:44:41 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:44:56 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:45:16 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:45:46 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:46:22 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:47:35 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:47:54 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:48:16 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:48:43 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:49:11 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:49:42 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:53:55 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:54:54 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:56:09 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:58:05 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:59:19 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 06:59:19 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [td] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(93): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n<ta...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[09-Mar-2023 07:00:18 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:00:18 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [div] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(89): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n<ta...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[09-Mar-2023 07:00:19 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:00:20 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [div] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(89): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n<ta...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[09-Mar-2023 07:00:36 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:00:36 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [div] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(90): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n<ta...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[09-Mar-2023 07:00:48 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:00:48 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [div] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(90): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n<ta...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[09-Mar-2023 07:00:50 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:00:50 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [div] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(90): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n<ta...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[09-Mar-2023 07:01:27 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:01:58 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:02:25 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:05:09 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:05:14 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:06:40 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:07:07 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:07:31 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:08:20 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:08:20 UTC] PHP Fatal error:  Uncaught Spipu\Html2Pdf\Exception\HtmlParsingException: Tags are closed in a wrong order for [table] in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php:262
+Stack trace:
+#0 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php(94): Spipu\Html2Pdf\Parsing\Html->getTagAction(Object(Spipu\Html2Pdf\Parsing\Token), Array)
+#1 /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Html2Pdf.php(594): Spipu\Html2Pdf\Parsing\Html->parse(Array)
+#2 /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php(85): Spipu\Html2Pdf\Html2Pdf->writeHTML('\n\n\n\n\n<page>\n<ta...')
+#3 {main}
+  thrown in /home/menujuse/public_html/MHF/coba/vendor/spipu/html2pdf/src/Parsing/Html.php on line 262
+[09-Mar-2023 07:08:45 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:09:42 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:11:19 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
+[09-Mar-2023 07:12:19 UTC] PHP Notice:  Undefined variable: content in /home/menujuse/public_html/MHF/coba/Flayer/pg_0001.php on line 8
