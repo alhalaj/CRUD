@@ -426,26 +426,4 @@ function delete_akun($id_akun)
     return mysqli_affected_rows($db);
 }
 
-function select1($post)
-{
-    // panggil koneksi database
-    global $db;
-    
-    // $tgl_awal    = strip_tags($post['tgl_awal']);
-    // $tgl_akhir   = strip_tags($post['tgl_akhir']);
-    
-    $tgl_awal  = $_POST['tgl_awal'];
-    $tgl_akhir  = $_POST['tgl_akhir'];
-    
-    
-    $query = "SELECT * FROM debitur where (tgl_penilaian BETWEEN '".$tgl_awal."' AND '".$tgl_akhir."') ORDER BY id_debitur DESC";
-    
-    $result = mysqli_query($db, $query);
-    $rows = [];
 
-    while ($row = mysqli_fetch_assoc($result)) {
-        $rows[] = $row;
-    }
-    
-    return $rows;
-}
